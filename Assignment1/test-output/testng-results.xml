@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6539" started-at="2020-09-21T11:08:12 IST" finished-at="2020-09-21T11:08:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6539" started-at="2020-09-21T11:08:12 IST" finished-at="2020-09-21T11:08:18 IST">
+      <class name="APIRequestValidations.GetUsersRequestValidation">
+        <test-method status="PASS" signature="ListUsers()[pri:0, instance:APIRequestValidations.GetUsersRequestValidation@ea1a8d5]" name="ListUsers" duration-ms="6507" started-at="2020-09-21T11:08:12 IST" finished-at="2020-09-21T11:08:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListUsers -->
+      </class> <!-- APIRequestValidations.GetUsersRequestValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
