@@ -17,7 +17,7 @@ public class CreateUserPostRequest {
 				.accept("application/json")
 				.body(payload).when().post("/api/users").then().statusCode(201).extract().response();
 
-		System.out.println("String Reponse: " +response.asString());
+		System.out.println("String Reponse=: " +response.asString());
 		
 //		JSONObject json=new JSONObject(response);
 		System.out.println(response.jsonPath().get("name"));
