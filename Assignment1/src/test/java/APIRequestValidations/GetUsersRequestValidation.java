@@ -23,7 +23,7 @@ JsonPath Extractor=response.jsonPath();
 	System.out.println("Ids from Response: " +Extractor.get("data[0].id"));
 	System.out.println("Ids from Response: " +Extractor.get("total_pages"));
 	List<Object> DataList=Extractor.getList("data");
-	System.out.println(Extractor.getList("data"));
+	System.out.println(Extractor.getList("data").toString());
 	
 	for (int i=0;i<DataList.size();i++) {
 		DataList.get(i).toString();
