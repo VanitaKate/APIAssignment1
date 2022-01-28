@@ -5,6 +5,7 @@
     <classes>
       <class name="APIRequestValidations.CreateUserPostRequest"/>
       <class name="APIRequestValidations.GetUsersRequestValidation"/>
+      <class name="APIRequestValidations.VerifyGoogle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
