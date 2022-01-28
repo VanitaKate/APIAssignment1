@@ -23,7 +23,7 @@ JsonPath Extractor=response.jsonPath();
 	System.out.println("Ids from Response: " +Extractor.get("data[0].id"));
 	System.out.println("Ids from Response: " +Extractor.get("total_pages"));
 	List<Object> DataList=Extractor.getList("data");
-	System.out.println(Extractor.getList("data").toString());
+	System.out.println(Extractor.getList("data"));
 	
 	for (int i=0;i<DataList.size();i++) {
 		DataList.get(i).toString();
@@ -35,8 +35,9 @@ JsonPath Extractor=response.jsonPath();
 		Assert.assertTrue(DataElement.contains("avatar"));
 	
 	}
-Assert.assertEquals(Extractor.get("data[0].id"), 7);
+Assert.assertEquals(Integer.parseInt(Extractor.get("data[0].id").toString()), 7);
 Assert.assertEquals(Extractor.get("data[0].email"),"michael.lawson@reqres.in");
 }
 }
+
 
